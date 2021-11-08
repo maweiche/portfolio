@@ -1,0 +1,27 @@
+:root {
+    --primary: purple;
+    --primary-hover: gold;
+    --secondary: green;
+}
+
+#logo {
+    border-radius: 50%;
+    max-width: 20vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: var(--primary);
+}
+
+body {
+    background-color: var(--secondary);
+}
+
+main {
+    flex: 1;
+    padding: 2% 4%;
+}
