@@ -144,7 +144,7 @@ main {
     color: var(--light);
 }
 /* modal content */
-.loginModal {
+.emailModal {
     
     display: none;/* Hidden by default*/
     justify-content: center;
@@ -166,31 +166,7 @@ main {
     animation-timing-function: linear;
     box-shadow: 10px 10px 5px var(--dark);
 }
-.loginModal > div {
+.emailModal > div {
     padding: 10px;
     margin: 5px;
 }
-
-.signupModal {
-    justify-content: center;
-    display: none;/* Hidden by default*/
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 50%; /* Full width */
-    height: fit-content; /* Full height */
-    overflow: hidden; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4);
-    margin-top: 30%; 
-    margin-left: 30%;
-    border-radius: 2%;
-    animation-name: rotate;
-    animation-duration: .5s;
-    animation-iteration-count: 2s;
-    animation-timing-function: linear;
-    box-shadow: 10px 10px 5px var(--dark);
-}
-
-
