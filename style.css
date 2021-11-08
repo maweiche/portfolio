@@ -13,16 +13,184 @@
     margin-right: auto;
 }
 
-nav {
-    background-color: var(--primary);
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--secondary);
 }
 
-body {
-    background-color: var(--secondary);
+
+main {
+    flex: 1;
+    padding: 2% 4%;
+}
+
+
+
+#logo {
+    border-radius: 50%;
+    max-width: 20vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    background-color: var(--primary);
+    color: var();
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--light);
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: bold;
+    transition: color .1s;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-item {
+    color: var(--light);
+    background-color: var(--primary);
+    font-weight: bold;
+    width: 100%;
+}
+.nav-item:hover {
+    background-color: var(--primary-hover);
+}
+
+a:hover, .blog-title {
+    color: var(--primary-hover);
+}
+
+.nav-link {
+    color: var(--light);
+}
+
+.nav-link:hover {
+    color: var(--light);
+}
+
+
+button {
+    background-color: var(--primary);
+    border: 0;
+    padding: 1%;
+    color: var(--light);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: var(--secondary-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
     flex: 1;
     padding: 2% 4%;
 }
+
+.btn-no-style {
+    border: none;
+    /* padding: 0; */
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--primary);
+    background-color: var(--light);
+    font-size: 100%;
+    font-weight: bold;
+    transition: color .1s;
+    filter: drop-shadow(2px 2px 2px grey);
+    margin-left: 20px;
+
+}
+
+.btn-no-style:hover {
+    background-color: var(--secondary-color);
+    color: var(--light);
+}
+
+.modalButton {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.modalButton:hover {
+    background-color: var(--secondary-color);
+    color: var(--light);
+}
+/* modal content */
+.loginModal {
+    
+    display: none;/* Hidden by default*/
+    justify-content: center;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: fit-content; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    margin-top: 30%; 
+    margin-left: 30%;
+    border-radius: 2%;
+    animation-name: rotate;
+    animation-duration: .5s;
+    animation-iteration-count: 2s;
+    animation-timing-function: linear;
+    box-shadow: 10px 10px 5px var(--dark);
+}
+.loginModal > div {
+    padding: 10px;
+    margin: 5px;
+}
+
+.signupModal {
+    justify-content: center;
+    display: none;/* Hidden by default*/
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: fit-content; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    margin-top: 30%; 
+    margin-left: 30%;
+    border-radius: 2%;
+    animation-name: rotate;
+    animation-duration: .5s;
+    animation-iteration-count: 2s;
+    animation-timing-function: linear;
+    box-shadow: 10px 10px 5px var(--dark);
+}
+
 
