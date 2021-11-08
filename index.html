@@ -36,10 +36,9 @@
                        
                     <!-- {{!-- Contact LINK --}} -->
                     <li class="nav-item-hoverable nav-item">
-                        <button type="button" class="btn btn-no-style" data-bs-toggle="modal" data-bs-target="#emailModal">
-                            Contact Me
-                          </button>
+                        <a href="#contact" class="nav-link">Contact Me</a>
                     </li>
+                    
 
                     <!-- Social Media Icons -->
                     <section id="icons">
@@ -49,8 +48,8 @@
                     <br/>
 
                     <!-- Downoad Resume Link -->
-                    <li class="nav-item-hoverable nav-item"></li>
-                        <a href="./assets/files/MW2021.pdf" target="_blank" download="MWresume">Download My Resume</a>
+                    <li class="nav-item-hoverable nav-item" ></li>
+                        <a href="./assets/files/MW2021.pdf" id="resume" target="_blank" download="MWresume">Download My Resume</a>
                     </li> 
                 
                 </ul>
@@ -77,9 +76,7 @@
                 <div class="card" id="cardContainer" style="width: 100%; height: fit-content">
                     <div id="projects" class="card-body">
                         <h5 class="card-title">Personal Projects</h5>
-                            <p class="card-text">
-                            Brief overview of whats listed
-                            </p>
+                            
                         <!-- Project 1 -->
                         <div class="row">
                             <div id="p1" class="card">
@@ -116,7 +113,11 @@
                         <br/>    
                         Feel Free to contact me through the channels above or just click the button below!
                         </p>
-                        <button id="msgBtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Send Matt a Message</button>
+                        <li class="nav-item-hoverable nav-item">
+                            <button type="button" class="btn btn-no-style" data-bs-toggle="modal" data-bs-target="#emailModal">
+                                Contact Me
+                              </button>
+                        </li>
                     </div>
                 </div>
             </article>

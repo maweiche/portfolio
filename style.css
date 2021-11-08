@@ -1,12 +1,24 @@
 :root {
-    --primary: purple;
-    --primary-hover: gold;
-    --secondary: green;
+    --primary: #031926;
+    --primary-hover: beige;
+    --secondary: #468189;
+   
 }
+
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#icons, #resume {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #logo {
     border-radius: 50%;
-    max-width: 20vw;
+    max-width: 50%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -28,11 +40,13 @@ main {
     padding: 2% 4%;
 }
 
-
+body {
+    background-color: var(--primary);
+}
 
 #logo {
     border-radius: 50%;
-    max-width: 20vw;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -54,13 +68,14 @@ a {
 }
 
 .nav-item {
-    color: var(--light);
-    background-color: var(--primary);
+    color: white;
     font-weight: bold;
     width: 100%;
+    text-align: center;
 }
 .nav-item:hover {
     background-color: var(--primary-hover);
+    color: black;
 }
 
 a:hover, .blog-title {
@@ -89,17 +104,6 @@ button:hover{
     background-color: var(--secondary-color);
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1%;
-}
-
-
-/* main {
-    flex: 1;
-    padding: 2% 4%;
-} */
 
 .btn-no-style {
     border: none;
@@ -169,7 +173,6 @@ header {
     margin: 5px;
     background: #F4E9CD;
     color: #031926;
-    min-width: 100%;
     text-align: center;
 }
 
@@ -182,6 +185,31 @@ header {
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    opacity: .6;
-    
+    opacity: .6;   
+}
+
+.fa{
+    display: inline-block;
+    padding: 2px;
+    font-size: 30px;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    margin: 5px;
+}
+
+.fa-linkedin {
+    background: transparent;
+    color: #0E76A8;
+}
+
+.fa-github {
+    color: white;
+    background: transparent;
+}
+
+.fa-instagram {
+    color: #8a3ab9;
+    background: transparent;
 }
