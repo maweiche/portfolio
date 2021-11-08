@@ -62,7 +62,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: red;
     font-weight: bold;
     transition: color .1s;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -220,3 +220,7 @@ button:hover{
     color: #8a3ab9;
     background: transparent;
 }
+
+#time{
+    color: white;
+    text-ali
