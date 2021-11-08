@@ -17,7 +17,7 @@ The goal of this portfolio is to provide an updated snapshot of my current profe
 
 ## Live Site Snapshot
 
-![Portfolio gif](./assets/images/portfolioMR.gif)
+![Portfolio gif](./assets/images/portfolio.gif)
 
 
 ## Authors
